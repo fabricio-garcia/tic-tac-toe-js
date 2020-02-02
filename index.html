@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Tic-Tac-Toe</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -23,7 +23,21 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <div class="container">
+    <h1>Tic-Tac-Toe</h1>
+    <div class="gameboard">
+      <div id="cell-1" class="cell"></div>
+      <div id="cell-2" class="cell"></div>
+      <div id="cell-3" class="cell"></div>
+      <div id="cell-4" class="cell"></div>
+      <div id="cell-5" class="cell"></div>
+      <div id="cell-6" class="cell"></div>
+      <div id="cell-7" class="cell"></div>
+      <div id="cell-8" class="cell"></div>
+      <h2 id="winner"></h2>
+      <button onclick="resetGameboard()">Reset</button>
+    </div>
+  </div>
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
