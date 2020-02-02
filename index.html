@@ -13,6 +13,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -25,18 +26,19 @@
   <!-- Add your site or application content here -->
   <div class="container">
     <h1>Tic-Tac-Toe</h1>
-    <div class="gameboard">
-      <div id="cell-1" class="cell"></div>
-      <div id="cell-2" class="cell"></div>
-      <div id="cell-3" class="cell"></div>
-      <div id="cell-4" class="cell"></div>
-      <div id="cell-5" class="cell"></div>
-      <div id="cell-6" class="cell"></div>
-      <div id="cell-7" class="cell"></div>
-      <div id="cell-8" class="cell"></div>
-      <h2 id="winner"></h2>
-      <button onclick="resetGameboard()">Reset</button>
+    <div class="gameboard-grid">
+      <div id="cell-1" class="block"></div>
+      <div id="cell-2" class="block"></div>
+      <div id="cell-3" class="block"></div>
+      <div id="cell-4" class="block"></div>
+      <div id="cell-5" class="block"></div>
+      <div id="cell-6" class="block"></div>
+      <div id="cell-7" class="block"></div>
+      <div id="cell-8" class="block"></div>
+      <div id="cell-9" class="block"></div>
     </div>
+    <h2 id="winner"></h2>
+    <button onclick="resetGameboard()">Play</button>
   </div>
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
