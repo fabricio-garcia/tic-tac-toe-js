@@ -78,7 +78,6 @@ input {
   width: 18em;
   height: 18em;
   grid-template-columns: auto auto auto;
-  display: none;
 }
 
 .block {
