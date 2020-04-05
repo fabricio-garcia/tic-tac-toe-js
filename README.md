@@ -36,6 +36,8 @@
   </p>
 </p>
 
+![game](doc/game.png)
+
 # Specifications
 
 - Data Structures
