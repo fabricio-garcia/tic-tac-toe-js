@@ -68,11 +68,15 @@
 
 [Link](https://raw.githack.com/Israel-Laguan/TicTacToe-JS/685a73692cfe12b597d806636ed956cad2393b63/index.html)
 
-# Usages
+# Usage
 
 - Clone or download the repo
 - Run a live server from the main directory
 - Start playing
+
+# Automated tests
+![linter](img/linter.png)
+![jest](doc/jest.png)
 
 # Author
 
