@@ -66,9 +66,15 @@
 
 # Live Demo
 
-[Link](https://fabricio-garcia.github.io/tic-tac-toe-js/)
+[Link](https://raw.githack.com/Israel-Laguan/TicTacToe-JS/685a73692cfe12b597d806636ed956cad2393b63/index.html)
 
-# Authors
+# Usages
+
+- Clone or download the repo
+- Run a live server from the main directory
+- Start playing
+
+# Author
 
 👨 [Fabricio Garcia](https://github.com/fabricio-garcia)
 
