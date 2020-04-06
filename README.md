@@ -76,7 +76,7 @@
 
 # Automated tests
 ![linter](img/linter.png)
-![jest](doc/jest.png)
+![jest](img/jest.png)
 
 # Author
 
